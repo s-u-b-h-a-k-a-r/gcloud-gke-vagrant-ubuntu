@@ -89,7 +89,7 @@ gcloud-gke-ubuntu  |100.10.10.116|Ubuntu 18.04|2G|2|
 
 From ***local windows system terminal*** execute the below commands
 
-* `$ ssh -L 8001:localhost:8001 root@100.10.10.116` [***password : vagrant***]
+* `$ ssh -L 8001:localhost:8001 vagrant@100.10.10.116` [***password : vagrant***]
 
 Use the below command to generate ***access token*** to login ***Dashboard***
 * `$ kubectl get secret $(kubectl get serviceaccount dashboard -o jsonpath="{.secrets[0].name}") -o jsonpath="{.data.token}" | base64 --decode`
