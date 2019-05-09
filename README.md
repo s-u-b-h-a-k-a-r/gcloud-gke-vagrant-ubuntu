@@ -50,8 +50,8 @@ VM:
 ```
 Open `windows (OR) bash` terminal from your `local windows` machine
 
-* `$ cd gcloud-gke-vagrant-ubuntu/provisioning` 
 * `$ git clone https://github.com/SubhakarKotta/gcloud-gke-vagrant-ubuntu.git` 
+* `$ cd gcloud-gke-vagrant-ubuntu/provisioning` 
 * `$ vagrant up`
 
 
